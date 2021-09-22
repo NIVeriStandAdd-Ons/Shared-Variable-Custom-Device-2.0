@@ -1,0 +1,6 @@
+5050 - DSM missing
+
+5100 - Localhost not allowed
+5101 - Empty Target String
+5102 - Not a valid IP
+5553 - File Format error Start:Read or Start:Write was not found.

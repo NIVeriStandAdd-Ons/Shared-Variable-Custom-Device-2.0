@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+  <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>Shared Variables CD 2.0</eng>
+    <loc>Shared Variables CD 2.0</loc>
+  </AddMenu>
+  <Version>1.0</Version>
+  <Type>Inline HW Interface</Type>
+  <MaxOccurrence>2474</MaxOccurrence>
+  <MainPageGUID>e36672b6-b061-4dec-a686-6b6cf69ca646</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+      <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Configuration.llb\Shared Variables CD 2.0 Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+    <SourceDistribution>
+      <Source>
+        <SupportedTarget>PharlapWindows</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Engine.llb\Shared Variables CD 2.0 RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Engine.llb\Shared Variables CD 2.0 RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_x64</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Shared Variables CD 2.0\Shared Variable CD 2.0 Engine (Linux_x64).llb\Shared Variables CD 2.0 RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\Shared Variable CD 2.0 Engine (Linux_x64).llb\Shared Variables CD 2.0 RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_32_ARM</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\Shared Variables CD 2.0\Shared Variable CD 2.0 Engine (Linux_32_ARM).llb\Shared Variables CD 2.0 RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\Shared Variable CD 2.0 Engine (Linux_32_ARM).llb\Shared Variables CD 2.0 RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+    </SourceDistribution>
+  </CustomDeviceVI>
+  <Dependencies>
+    <Dependency>
+      <SupportedTarget>PharlapWindows</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Data\SV Interface (Pharlap).lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\SV Interface (Pharlap).lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_x64</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Data\SV Interface (Linux_x64).lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\SV Interface (Linux_x64).lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_32_ARM</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Data\SV Interface (Linux_32_ARM).lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\SV Interface (Linux_32_ARM).lvlibp</RealTimeSystemDestination>
+    </Dependency>
+  </Dependencies>
+  <Pages>
+    <Page>
+      <Name>
+        <eng>Shared Variables CD 2.0</eng>
+        <loc>Shared Variables CD 2.0</loc>
+      </Name>
+      <GUID>e36672b6-b061-4dec-a686-6b6cf69ca646</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\RM Ring Late Count.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Configuration.llb\Shared Variables CD 2.0 Main Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>54a6f35a-a90d-4329-800a-cbc47612ec2b</GUID>
+          <Type>Action</Type>
+          <Execution>silent</Execution>
+          <Behavior>None</Behavior>
+          <Name>
+            <eng>Create Shared Variables</eng>
+            <loc>Create Shared Variables</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Configuration.llb\GoToDSM.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>c148f63a-14fb-4249-9674-c92bd26da83a</GUID>
+          <Type>VI</Type>
+          <Name>
+            <eng>Import</eng>
+            <loc>Import</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Configuration.llb\Import config from file.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>6565d42b-f0f0-4c05-866c-d900af4b671e</GUID>
+          <Type>VI</Type>
+          <Behavior>None</Behavior>
+          <Name>
+            <eng>Export</eng>
+            <loc>Export</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Configuration.llb\Export config to file.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>OpenDSM</ID>
+          <Glyph>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Shared Variables CD 2.0\Glyphs\AddVar.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>54a6f35a-a90d-4329-800a-cbc47612ec2b</ReferencedGUID>
+          <ButtonText>
+            <eng>Create Shared Variables</eng>
+            <loc>Create Shared Variables</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Create Shared Variables</eng>
+            <loc>Create Shared Variables</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Create Shared Variables in Distributed System Manager. (If installed)</eng>
+            <loc>Create Shared Variables in Distributed System Manager. (If installed)</loc>
+          </TipStrip>
+          <Documentation>
+            <eng />
+            <loc />
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Write</eng>
+        <loc>Write</loc>
+      </Name>
+      <GUID>03ebf737-a43a-4cae-9229-a600a1cb01e1</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Glyphs\Write_SV.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Configuration.llb\ReadWrite.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Read</eng>
+        <loc>Read</loc>
+      </Name>
+      <GUID>4fe9b085-dccc-493b-bd60-f87426b0df9b</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Glyphs\Read_SV.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Configuration.llb\ReadWrite.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Target</eng>
+        <loc>Target</loc>
+      </Name>
+      <GUID>9bbfc2a2-d0f2-430a-9bec-35d10b28e45e</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\target section.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Configuration.llb\Target.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Numeric</eng>
+        <loc>Numeric</loc>
+      </Name>
+      <GUID>5480142c-f7e0-4c41-8ce2-b6ae3e17b247</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Glyphs\dbl.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Configuration.llb\Numeric.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>54a6f35a-a90d-4329-800a-cbc47612ec2b</GUID>
+          <Type>Action</Type>
+          <Execution>silent</Execution>
+          <Behavior>None</Behavior>
+          <Name>
+            <eng>Remove Shared Variable</eng>
+            <loc>Remove Shared Variable</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Configuration.llb\Remove Shared Variable.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Boolean</eng>
+        <loc>Boolean</loc>
+      </Name>
+      <GUID>5e384cd8-807c-47a7-a973-215c0a8952b3</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Glyphs\Bool.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Configuration.llb\Boolean.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>4056e0b7-3de0-457c-a1ea-514220d8446a</GUID>
+          <Type>Action</Type>
+          <Execution>silent</Execution>
+          <Behavior>None</Behavior>
+          <Name>
+            <eng>Remove Shared Variable</eng>
+            <loc>Remove Shared Variable</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Configuration.llb\Remove Shared Variable.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Status</eng>
+        <loc>Status</loc>
+      </Name>
+      <GUID>bf290bea-42ed-4a60-879f-a311dbe4de0f</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\system variable.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Configuration.llb\Status.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Error</eng>
+        <loc>Error</loc>
+      </Name>
+      <GUID>5436e1eb-8f7b-49f2-9830-32976c323e56</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Glyphs\Error.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Configuration.llb\Error.vi</Path>
+      </Item2Launch>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy />
+  </CustomXML>
+</CustomDevice>
