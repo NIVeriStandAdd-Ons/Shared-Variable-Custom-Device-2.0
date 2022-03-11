@@ -76,37 +76,9 @@
 			<Item Name="SV Global.vi" Type="VI" URL="../Shared/SV Global.vi"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
-			<Item Name="ImportExport.lvlibp" Type="LVLibp" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/ImportExport.lvlibp">
-				<Item Name="ConfigFile.lvclass" Type="LVClass" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/ImportExport.lvlibp/ConfigFile/ConfigFile.lvclass"/>
-				<Item Name="Open File.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/ImportExport.lvlibp/Open File.vi"/>
-				<Item Name="Write File.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/ImportExport.lvlibp/Write File.vi"/>
-				<Item Name="Read File.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/ImportExport.lvlibp/Read File.vi"/>
-				<Item Name="Close File.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/ImportExport.lvlibp/Close File.vi"/>
-				<Item Name="Operation.ctl" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/ImportExport.lvlibp/Operation.ctl"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-				<Item Name="Recursive File List.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/ImportExport.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
-			</Item>
-			<Item Name="Channel.lvlibp" Type="LVLibp" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/Channel.lvlibp">
-				<Item Name="Channel.lvclass" Type="LVClass" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/Channel.lvlibp/Channel.lvclass"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/Channel.lvlibp/1abvi3w/vi.lib/Utility/Data Type/NI_Data Type.lvlib"/>
-			</Item>
-			<Item Name="TXT.lvlibp" Type="LVLibp" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/TXT.lvlibp">
-				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/TXT.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
-				<Item Name="Get PString__ogtk.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/TXT.lvlibp/1abvi3w/vi.lib/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
-				<Item Name="TXT.lvclass" Type="LVClass" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/TXT.lvlibp/TXT.lvclass"/>
-				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
-				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
-				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
-				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/TXT.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
-			</Item>
+			<Item Name="ImportExport.lvlibp" Type="LVLibp" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/ImportExport.lvlibp"/>
+			<Item Name="Channel.lvlibp" Type="LVLibp" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/Channel.lvlibp"/>
+			<Item Name="TXT.lvlibp" Type="LVLibp" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/TXT.lvlibp"/>
 		</Item>
 		<Item Name="Custom Device Shared Variables CD 2.0.xml" Type="Document" URL="../Custom Device Shared Variables CD 2.0.xml"/>
 		<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
@@ -178,13 +150,6 @@
 			<Item Name="ws2_32.dll" Type="Document" URL="ws2_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Hardware Interface Driver VI Operation.ctl" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variable CD 2.0 Engine (Linux_x64).llb/Hardware Interface Driver VI Operation.ctl"/>
-			<Item Name="Data Reference.ctl" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variable CD 2.0 Engine (Linux_x64).llb/Data Reference.ctl"/>
-			<Item Name="NI VeriStand - Get Item Data.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/home/lvuser/natinst/bin/Shared Variable CD 2.0 Engine (Linux_x64).llb/NI VeriStand - Get Item Data.vi"/>
-			<Item Name="NI VeriStand - Unset Busy Cursor.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/NI VeriStand - Unset Busy Cursor.vi"/>
-			<Item Name="NI VeriStand - Get Event Refnum.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/NI VeriStand - Get Event Refnum.vi"/>
-			<Item Name="NI VeriStand - Parse Incoming Command Data.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/NI VeriStand - Parse Incoming Command Data.vi"/>
-			<Item Name="NI VeriStand - Signal When Ready for Shutdown.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/NI VeriStand - Signal When Ready for Shutdown.vi"/>
 			<Item Name="Write Channel Info.vi" Type="VI" URL="../../../../../../Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/Data/Channel.lvlibp/Write Channel Info.vi"/>
 			<Item Name="Read Channel Info.vi" Type="VI" URL="../../../../../../Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/Data/Channel.lvlibp/Read Channel Info.vi"/>
 			<Item Name="Channel.lvclass" Type="LVClass" URL="../../../../../../Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/Data/Channel.lvlibp/Channel.lvclass"/>
@@ -193,10 +158,21 @@
 			<Item Name="Read File.vi" Type="VI" URL="../../../../../../Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/data/ImportExport.lvlibp/Read File.vi"/>
 			<Item Name="Close File.vi" Type="VI" URL="../../../../../../Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/data/ImportExport.lvlibp/Close File.vi"/>
 			<Item Name="Write File.vi" Type="VI" URL="../../../../../../Public/Documents/National Instruments/NI VeriStand 2017/Custom Devices/Shared Variables CD 2.0/Data/ImportExport.lvlibp/Write File.vi"/>
-			<Item Name="DialogType.ctl" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/DialogType.ctl"/>
-			<Item Name="General Error Handler.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/General Error Handler.vi"/>
-			<Item Name="Get Text Rect.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variable CD 2.0 Engine (Linux_x64).llb/Get Text Rect.vi"/>
-			<Item Name="BuildHelpPath.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variable CD 2.0 Engine (Linux_x64).llb/BuildHelpPath.vi"/>
+			<Item Name="Hardware Interface Driver VI Operation.ctl" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variable CD 2.0 Engine (Linux_x64).llb/Hardware Interface Driver VI Operation.ctl"/>
+			<Item Name="Data Reference.ctl" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variable CD 2.0 Engine (Linux_x64).llb/Data Reference.ctl"/>
+			<Item Name="NI VeriStand - Get Item Data.vi" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/home/lvuser/natinst/bin/Shared Variable CD 2.0 Engine (Linux_x64).llb/NI VeriStand - Get Item Data.vi"/>
+			<Item Name="NI VeriStand - Unset Busy Cursor.vi" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/NI VeriStand - Unset Busy Cursor.vi"/>
+			<Item Name="NI VeriStand - Get Event Refnum.vi" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/NI VeriStand - Get Event Refnum.vi"/>
+			<Item Name="NI VeriStand - Parse Incoming Command Data.vi" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/NI VeriStand - Parse Incoming Command Data.vi"/>
+			<Item Name="DialogType.ctl" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/DialogType.ctl"/>
+			<Item Name="General Error Handler.vi" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/General Error Handler.vi"/>
+			<Item Name="NI VeriStand - Signal When Ready for Shutdown.vi" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/NI VeriStand - Signal When Ready for Shutdown.vi"/>
+			<Item Name="Get Text Rect.vi" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variable CD 2.0 Engine (Linux_x64).llb/Get Text Rect.vi"/>
+			<Item Name="BuildHelpPath.vi" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variable CD 2.0 Engine (Linux_x64).llb/BuildHelpPath.vi"/>
+			<Item Name="Write Channel Info.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/Channel.lvlibp/Write Channel Info.vi"/>
+			<Item Name="Data Type.ctl" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/Channel.lvlibp/1abvi3w/vi.lib/Utility/Data Type/Type Definitions/Data Type.ctl"/>
+			<Item Name="Read Channel Info.vi" Type="VI" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/Channel.lvlibp/Read Channel Info.vi"/>
+			<Item Name="Channel.lvclass" Type="LVClass" URL="../../../../../../../OneDrive - NI/Documents/GitHub/Shared-Variable-Custom-Device-2.0/Modules/Channel.lvlibp/Channel.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration" Type="Source Distribution">
@@ -313,8 +289,8 @@
 			</Item>
 		</Item>
 	</Item>
-	<Item Name="RT PXI Target" Type="RT PXI Chassis">
-		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
+	<Item Name="RT PXI Target (Unused - kept for SV PPL)" Type="RT PXI Chassis">
+		<Property Name="alias.name" Type="Str">RT PXI Target (Unused - kept for SV PPL)</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -400,7 +376,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{B917B66A-C135-4E75-9E4A-892E7F06F82C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/Shared Variable Interface.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target (Unused - kept for SV PPL)/Shared Variable Interface.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -418,8 +394,8 @@
 			</Item>
 		</Item>
 	</Item>
-	<Item Name="RT CompactRIO Target" Type="RT PXI Chassis">
-		<Property Name="alias.name" Type="Str">RT CompactRIO Target</Property>
+	<Item Name="LinuxRT x64 Target" Type="RT PXI Chassis">
+		<Property Name="alias.name" Type="Str">LinuxRT x64 Target</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -469,29 +445,7 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Async Process" Type="Folder">
-			<Item Name="SV Interface (Linux_x64).lvlibp" Type="LVLibp" URL="../Support/SV Interface (Linux_x64).lvlibp">
-				<Item Name="DataTypes" Type="Folder">
-					<Item Name="DBL.lvlib" Type="Library" URL="../Support/SV Interface (Linux_x64).lvlibp/DataTypes/DBL.lvlib"/>
-					<Item Name="Bool.lvlib" Type="Library" URL="../Support/SV Interface (Linux_x64).lvlibp/DataTypes/Bool.lvlib"/>
-				</Item>
-				<Item Name="SubVIs" Type="Folder">
-					<Item Name="Create FIFOs.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Create FIFOs.vi"/>
-					<Item Name="Error Handler.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Error Handler.vi"/>
-					<Item Name="Read SV.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Read SV.vi"/>
-					<Item Name="Stop and Stop on Error.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Stop and Stop on Error.vi"/>
-					<Item Name="Write SV.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SubVI/Write SV.vi"/>
-				</Item>
-				<Item Name="Clear Errors.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="../Support/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Initialize SV Interface.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/Initialize SV Interface.vi"/>
-				<Item Name="nirviCommon.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
-				<Item Name="Notify Closing Status.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/Notify Closing Status.vi"/>
-				<Item Name="Open References to Shared Variables.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/Open References to Shared Variables.vi"/>
-				<Item Name="Run SV process.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/Run SV process.vi"/>
-				<Item Name="Stop and Close SV.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/Stop and Close SV.vi"/>
-				<Item Name="SV Data.ctl" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV Interface/SV Data.ctl"/>
-				<Item Name="SV_Process.vi" Type="VI" URL="../Support/SV Interface (Linux_x64).lvlibp/SV_Process.vi"/>
-			</Item>
+			<Item Name="SV Interface (Linux_x64).lvlibp" Type="LVLibp" URL="../Support/SV Interface (Linux_x64).lvlibp"/>
 		</Item>
 		<Item Name="Shared" Type="Folder">
 			<Item Name="Device Settings" Type="Folder">
@@ -533,36 +487,15 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="DialogType.ctl" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/DialogType.ctl"/>
-			<Item Name="General Error Handler.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/General Error Handler.vi"/>
-			<Item Name="DialogTypeEnum.ctl" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/DialogTypeEnum.ctl"/>
-			<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/General Error Handler Core CORE.vi"/>
-			<Item Name="whitespace.ctl" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/whitespace.ctl"/>
-			<Item Name="Check Special Tags.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Check Special Tags.vi"/>
-			<Item Name="TagReturnType.ctl" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/TagReturnType.ctl"/>
-			<Item Name="Set String Value.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Set String Value.vi"/>
-			<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/GetRTHostConnectedProp.vi"/>
-			<Item Name="Error Code Database.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Error Code Database.vi"/>
-			<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Trim Whitespace.vi"/>
-			<Item Name="Format Message String.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Format Message String.vi"/>
-			<Item Name="Find Tag.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Find Tag.vi"/>
-			<Item Name="Search and Replace Pattern.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Search and Replace Pattern.vi"/>
-			<Item Name="Set Bold Text.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Set Bold Text.vi"/>
-			<Item Name="Details Display Dialog.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Details Display Dialog.vi"/>
-			<Item Name="ErrWarn.ctl" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/ErrWarn.ctl"/>
-			<Item Name="eventvkey.ctl" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/eventvkey.ctl"/>
-			<Item Name="Clear Errors.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Clear Errors.vi"/>
-			<Item Name="Not Found Dialog.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Not Found Dialog.vi"/>
-			<Item Name="Three Button Dialog.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Three Button Dialog.vi"/>
-			<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Three Button Dialog CORE.vi"/>
-			<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/LVRectTypeDef.ctl"/>
-			<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Longest Line Length in Pixels.vi"/>
-			<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Convert property node font to graphics font.vi"/>
-			<Item Name="Get Text Rect.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Get Text Rect.vi"/>
-			<Item Name="Get String Text Bounds.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/Get String Text Bounds.vi"/>
-			<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/LVBoundsTypeDef.ctl"/>
-			<Item Name="BuildHelpPath.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/BuildHelpPath.vi"/>
-			<Item Name="GetHelpDir.vi" Type="VI" URL="../../../../../Shared-Variable-Custom-Device-2.0/Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/GetHelpDir.vi"/>
+			<Item Name="DialogType.ctl" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/DialogType.ctl"/>
+			<Item Name="General Error Handler.vi" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/General Error Handler.vi"/>
+			<Item Name="Hardware Interface Driver VI Operation.ctl" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variable CD 2.0 Engine (Linux_x64).llb/Hardware Interface Driver VI Operation.ctl"/>
+			<Item Name="Data Reference.ctl" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variable CD 2.0 Engine (Linux_x64).llb/Data Reference.ctl"/>
+			<Item Name="NI VeriStand - Get Item Data.vi" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/home/lvuser/natinst/bin/Shared Variable CD 2.0 Engine (Linux_x64).llb/NI VeriStand - Get Item Data.vi"/>
+			<Item Name="NI VeriStand - Unset Busy Cursor.vi" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/NI VeriStand - Unset Busy Cursor.vi"/>
+			<Item Name="NI VeriStand - Get Event Refnum.vi" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/NI VeriStand - Get Event Refnum.vi"/>
+			<Item Name="NI VeriStand - Parse Incoming Command Data.vi" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/NI VeriStand - Parse Incoming Command Data.vi"/>
+			<Item Name="NI VeriStand - Signal When Ready for Shutdown.vi" Type="VI" URL="../../../../Builds/Shared Variables CD 2.0/Shared Variables CD 2.0 Configuration.llb/NI VeriStand - Signal When Ready for Shutdown.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine (Linux_x64)" Type="Source Distribution">
@@ -592,14 +525,14 @@
 				<Property Name="Source[0].itemID" Type="Str">{FBDEF2B5-91F9-484C-B136-D6A16195252B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Async Process/SV Interface (Linux_x64).lvlibp</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/LinuxRT x64 Target/Async Process/SV Interface (Linux_x64).lvlibp</Property>
 				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/Shared Variables CD 2.0 Engine.lvlib/Engine</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/LinuxRT x64 Target/Shared Variables CD 2.0 Engine.lvlib/Engine</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
@@ -632,7 +565,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{3CEE65D6-C57E-4D95-97C9-DFC5C7A6AC3A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Shared Variable Interface.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/LinuxRT x64 Target/Shared Variable Interface.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
