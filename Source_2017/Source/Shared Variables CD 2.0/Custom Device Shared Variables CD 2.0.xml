@@ -19,7 +19,7 @@
   <CustomDeviceVI>
     <SourceDistribution>
       <Source>
-        <SupportedTarget>PharlapWindows</SupportedTarget>
+        <SupportedTarget>Windows</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
           <Path>Custom Devices\Shared Variables CD 2.0\Shared Variables CD 2.0 Engine.llb\Shared Variables CD 2.0 RT Driver VI.vi</Path>
@@ -34,22 +34,14 @@
         </Source>
         <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\Shared Variable CD 2.0 Engine (Linux_x64).llb\Shared Variables CD 2.0 RT Driver VI.vi</RealTimeSystemDestination>
       </Source>
-      <Source>
-        <SupportedTarget>Linux_32_ARM</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\Shared Variables CD 2.0\Shared Variable CD 2.0 Engine (Linux_32_ARM).llb\Shared Variables CD 2.0 RT Driver VI.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\Shared Variable CD 2.0 Engine (Linux_32_ARM).llb\Shared Variables CD 2.0 RT Driver VI.vi</RealTimeSystemDestination>
-      </Source>
     </SourceDistribution>
   </CustomDeviceVI>
   <Dependencies>
     <Dependency>
-      <SupportedTarget>PharlapWindows</SupportedTarget>
+      <SupportedTarget>Windows</SupportedTarget>
       <Source>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Shared Variables CD 2.0\Data\SV Interface (Pharlap).lvlibp</Path>
+        <Path>Custom Devices\Shared Variables CD 2.0\Data\SV Interface (Windows).lvlibp</Path>
       </Source>
       <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\SV Interface (Pharlap).lvlibp</RealTimeSystemDestination>
     </Dependency>
@@ -60,14 +52,6 @@
         <Path>Custom Devices\Shared Variables CD 2.0\Data\SV Interface (Linux_x64).lvlibp</Path>
       </Source>
       <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\SV Interface (Linux_x64).lvlibp</RealTimeSystemDestination>
-    </Dependency>
-    <Dependency>
-      <SupportedTarget>Linux_32_ARM</SupportedTarget>
-      <Source>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Shared Variables CD 2.0\Data\SV Interface (Linux_32_ARM).lvlibp</Path>
-      </Source>
-      <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Shared Variables CD 2.0\SV Interface (Linux_32_ARM).lvlibp</RealTimeSystemDestination>
     </Dependency>
   </Dependencies>
   <Pages>

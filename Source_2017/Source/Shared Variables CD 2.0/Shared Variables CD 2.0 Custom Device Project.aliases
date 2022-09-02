@@ -1,0 +1,8 @@
+[LinuxRT x64 Target]
+LinuxRT x64 Target = "0.0.0.0"
+
+[My Computer]
+My Computer = "192.168.2.247"
+
+[RT PXI Target (Unused - kept for SV PPL)]
+RT PXI Target (Unused - kept for SV PPL) = "0.0.0.0"
