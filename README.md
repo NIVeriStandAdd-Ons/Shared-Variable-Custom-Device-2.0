@@ -6,11 +6,12 @@ See Documentation (Add....)
 
 ### LabVIEW Version ###
 
-LabVIEW 2017
+LabVIEW 2021.
 
 ### Built Availability ###
 
-Builds available in the builds directory, everything in project is there to build.
+Builds for 2021 available in the builds directory.
+For previous versions, please see the branch 2017+ and build from source.
 
 ### Quality, Limitations ###
 
